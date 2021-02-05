@@ -11,11 +11,13 @@ Desenvolvido por: Marlon Allan de Sena Ferreira
 Endereço na web: https://alemdemarteapi.herokuapp.com/
 
 
+
 Ferramentas utilizadas no desenvolvimento da API:
 
     Nodejs - versão 14.15.4
   
     sqlite - versão 3.33.0
+ 
  
  
 Dependencias do NodeJS
@@ -35,9 +37,10 @@ Dependencias do NodeJS
     sqlite3     -  5.0.1
  
  
+ 
 Dependencias do NodeJS em desenvolvimento
 
-  nodemon     -  2.0.7
+    nodemon     -  2.0.7
  
  
  ----ROTA USUARIO----
