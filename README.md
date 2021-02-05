@@ -15,13 +15,13 @@ Ferramentas utilizadas no desenvolvimento da API:
   sqlite - versão 3.33.0
  
 Dependencias do NodeJS
- body-parser -  1.19.0
- cors        -  2.8.5
- dotenv      -  8.2.0
- express     -  4.17.1
- morgan      -  1.10.0
- sqlite      -  4.0.19
- sqlite3     -  5.0.1
+body-parser -  1.19.0
+cors        -  2.8.5
+dotenv      -  8.2.0
+express     -  4.17.1
+morgan      -  1.10.0
+sqlite      -  4.0.19
+sqlite3     -  5.0.1
  
 Dependencias do NodeJS em desenvolvimento
  nodemon     -  2.0.7
