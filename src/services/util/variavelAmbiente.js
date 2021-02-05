@@ -7,7 +7,7 @@ const variavelAmbiente = {
     config: function () {
         const env = process.env.NODE_ENV || "dev"
         console.log(process.env.NODE_ENV)
-        ok(env === "prod" || env === "dev", 'A env e invalida, ou dev ou prod')
+        ok(env === "production" || env === "dev", 'A env e invalida, ou dev ou prod')
 
         const configPath = join(__dirname, './../config', `.env.${env}`)
         config({
