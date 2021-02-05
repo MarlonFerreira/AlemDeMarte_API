@@ -10,7 +10,7 @@ const morgan = require('morgan')
 accessLogStream = require('./services/util/log')
 
 const variavelAmbiente = require('./services/util/variavelAmbiente')
-const routes = require('./routes/Routes')
+const routes = require('./routes/routes')
 
 variavelAmbiente.config();
 const app = express();
