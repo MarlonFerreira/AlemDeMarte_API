@@ -8,7 +8,8 @@ Projeto: Além de Marte
 
 Desenvolvido por: Marlon Allan de Sena Ferreira
 
-Endereço na web: https://alemdemarteapi.herokuapp.com/
+Endereço da API na web: https://alemdemarteapi.herokuapp.com/
+Endereço da aplicação na web: https://alemdemarte.herokuapp.com/
 
 --------------------------------
 
