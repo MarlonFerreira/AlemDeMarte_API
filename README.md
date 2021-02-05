@@ -40,12 +40,11 @@ Dependencias do NodeJS em desenvolvimento
  
 post('/usuario')
 
-  Recebe "nome" via body
+    Recebe "nome" via body
   
-    Retorna resultado default sqlite em json da operação insert aplicado ao nome recebido
+      Retorna resultado default sqlite em json da operação insert aplicado ao nome recebido
 
 
-Sem utilização {
 
   patch('/usuario?')
   
@@ -75,7 +74,7 @@ Sem utilização {
     Sem recebimento
     
       Retorna o resultado default sqlite em json da operação get aplicada a todos os registros
-}    
+  
 
 --------------------------------
 
@@ -83,9 +82,9 @@ Sem utilização {
 
 router.post('/imagem')
 
-  Recebe "id" via body
+    Recebe "id" via body
   
-    Retorna resultado o proprio id em json da operação insert aplicado ao id recebido
+      Retorna resultado o proprio id em json da operação insert aplicado ao id recebido
 
 --------------------------------
 
@@ -93,9 +92,9 @@ router.post('/imagem')
 
 get('/usuarioimagem?')
 
-  Recebe "id" da imagem via query 
+    Recebe "id" da imagem via query 
   
-  Recebe "id" do usuario via query 
+    Recebe "id" do usuario via query 
   
       Retorna o resultado default sqlite em json da operação get aplicada aos parametros recebidos
 
@@ -105,16 +104,15 @@ get('/usuarioimagem?')
 
 post('/like')
 
-  Recebe "likes" via body
+    Recebe "likes" via body
   
-  Recebe "id" do usuario via body
+    Recebe "id" do usuario via body
   
-  Recebe "id" da imagem via body
+    Recebe "id" da imagem via body
   
-    Retorna status 200
+      Retorna status 200
 
 
-Sem utilização {
 
   delete('/like')
   
@@ -126,4 +124,3 @@ Sem utilização {
     
       Retorna status 200
       
-}
