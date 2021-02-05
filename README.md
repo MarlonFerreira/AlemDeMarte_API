@@ -42,6 +42,7 @@ Dependencias do NodeJS em desenvolvimento
 
     nodemon     -  2.0.7
  
+ --------------------------------
  
  ----ROTA USUARIO----
  
