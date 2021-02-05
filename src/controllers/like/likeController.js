@@ -2,8 +2,6 @@ const imagemModel = require('../../models/imagem/imagemModel')
 const usuarioImagemModel = require('../../models/usuarioImagem/usuarioImagemModel')
 
 
-const ERRO_ID_UNIQUE_JA_CADASTRADO = 19
-
 const likeController = {
 
     post: async function (req, res) {

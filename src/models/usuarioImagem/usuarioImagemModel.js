@@ -4,7 +4,7 @@ const imagem = {
     'id': 'int',
     'id_usuario': 'int',
     'id_imagem': 'int',
-    'btn_like_mostrar': 'text'
+    'like_mostrar': 'text'
 };
 
 class usuarioImagemModel {

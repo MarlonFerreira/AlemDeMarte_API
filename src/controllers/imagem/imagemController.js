@@ -1,6 +1,5 @@
 const model = require('../../models/imagem/imagemModel')
 
-const ERRO_ID_UNIQUE_JA_CADASTRADO = 19
 
 const imagemController = {
 

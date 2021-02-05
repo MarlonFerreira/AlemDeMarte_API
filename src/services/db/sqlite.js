@@ -1,9 +1,6 @@
 const sqlite3 = require('sqlite3');
 const sqlite = require('sqlite');
 
-const ERRO_ID_UNIQUE_JA_CADASTRADO = 19
-const ERRO_ITEM_NAO_CADASTRADO = 20
-
 class BDSqlite {
     constructor(connection, schema) {
         this.connection = connection
