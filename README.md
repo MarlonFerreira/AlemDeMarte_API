@@ -24,30 +24,6 @@ Ferramentas utilizadas no desenvolvimento da API:
  
  --------------------------------
  
-Dependencias do NodeJS
-
-    body-parser -  1.19.0
-  
-    cors        -  2.8.5
-  
-    dotenv      -  8.2.0
-  
-    express     -  4.17.1
-  
-    morgan      -  1.10.0
-  
-    sqlite      -  4.0.19
-  
-    sqlite3     -  5.0.1
- 
- --------------------------------
- 
-Dependencias do NodeJS em desenvolvimento
-
-    nodemon     -  2.0.7
- 
- --------------------------------
- 
  ----ROTA USUARIO----
  
 post('/usuario')
@@ -96,7 +72,7 @@ router.post('/imagem')
 
     Recebe "id" via body
   
-      Retorna resultado o proprio id em json da operação insert aplicado ao id recebido
+      Retorna o proprio id em json após operação insert aplicada ao id recebido
 
 --------------------------------
 
