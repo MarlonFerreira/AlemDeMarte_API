@@ -5,7 +5,7 @@ router.post('/like', async (req, res) => {
     await likeController.post(req, res)
 })
 
-router.post('/dislike', async (req, res) => {
+router.delete('/like?', async (req, res) => {
     await likeController.delete(req, res)
 })
 

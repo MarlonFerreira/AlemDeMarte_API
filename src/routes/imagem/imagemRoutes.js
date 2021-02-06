@@ -5,13 +5,5 @@ router.post('/imagem', async (req, res) => {
     await imagemController.post(req, res)
 })
 
-router.patch('/imagem', async (req, res) => {
-    await imagemController.update(req, res)
-})
-
-router.get('/imagem/:id', async (req, res) => {
-    await imagemController.getOne(req, res)
-})
-
 
 module.exports = router

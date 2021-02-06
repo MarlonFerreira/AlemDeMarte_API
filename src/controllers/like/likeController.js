@@ -19,10 +19,10 @@ const likeController = {
     },
 
     delete: async function (req, res) {
-        let likes = req.body.likes - 1
+        let likes = req.query.likes - 1
         try {
-            await imagemModel.updateImagem(req.body.id, likes)
-            await usuarioImagemModel.updateUsuarioImagem(req.body.id, req.body.id_usuario, 'Like')
+            await imagemModel.updateImagem(req.query.id, likes)
+            await usuarioImagemModel.updateUsuarioImagem(req.query.id, req.query.id_usuario, 'Like')
 
             return res.status(200)
         }
